@@ -1,11 +1,12 @@
 ﻿using DomainComponents.Core.Enums;
+using DomainComponents.Core.Models.ServiceModels.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainComponents.Core.Models
+namespace DomainComponents.Core.Models.Main
 {
     public class User
     {

@@ -5,7 +5,7 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainComponents.Core.Models
+namespace DomainComponents.Core.Models.Main
 {
     public class Category
     {

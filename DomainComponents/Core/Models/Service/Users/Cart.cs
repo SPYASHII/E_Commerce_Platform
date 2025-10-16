@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DomainComponents.Core.Models.Main;
 
-namespace DomainComponents.Core.Models
+namespace DomainComponents.Core.Models.ServiceModels.Users
 {
     /// <summary>
     /// Save in database ONLY IF AUTHORIZED

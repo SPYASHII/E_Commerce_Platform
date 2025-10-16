@@ -1,10 +1,13 @@
-﻿using System;
+﻿using DomainComponents.Core.Models.Main;
+using DomainComponents.Core.Models.Service.Characteristics;
+using DomainComponents.Core.Models.ServiceModels.Characteristics;
+using DomainComponents.Core.Models.ServiceModels.Users;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
-using DomainComponents.Core.Models;
 
 namespace DomainComponents.Core.Interfaces.Services
 {
@@ -14,7 +17,9 @@ namespace DomainComponents.Core.Interfaces.Services
         public IGenericRepository<Cart> CartRepository { get; }
         public IGenericRepository<Product> ProductRepository { get; }
         public IGenericRepository<Category> CategoryRepository { get; }
-        public IGenericRepository<Сharacteristic> СharacteristicRepository { get; }
+        public IGenericRepository<Models.Main.Сharacteristic> СharacteristicRepository { get; }
+        public IGenericRepository<TextCharacteristicValue> TextСharacteristicRepository { get; }
+        public IGenericRepository<FloatCharacteristicValue> FloatСharacteristicRepository { get; }
         public void Save();
     }
 }
