@@ -35,7 +35,6 @@ namespace Database_Infrastructure.Core
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasColumnType("money");

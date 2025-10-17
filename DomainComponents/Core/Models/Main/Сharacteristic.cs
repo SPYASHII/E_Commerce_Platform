@@ -1,4 +1,5 @@
-﻿using DomainComponents.Core.Models.Service.Characteristics;
+﻿using DomainComponents.Core.Enums;
+using DomainComponents.Core.Models.Service.Characteristics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace DomainComponents.Core.Models.Main
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public CharacteristicType CharacteristicType { get; set; }
         public List<Category> Categories { get; set; }
     }
 }
