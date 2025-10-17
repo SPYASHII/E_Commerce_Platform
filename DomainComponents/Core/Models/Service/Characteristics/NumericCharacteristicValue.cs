@@ -8,7 +8,7 @@ using DomainComponents.Core.Models.Service.Characteristics;
 
 namespace DomainComponents.Core.Models.ServiceModels.Characteristics
 {
-    public class FloatCharacteristicValue : CharacteristicValue<float>
+    public class NumericCharacteristicValue : CharacteristicValue<float>
     {
         public float Value { get; set; }
     }

@@ -19,7 +19,7 @@ namespace DomainComponents.Core.Interfaces.Services
         public IGenericRepository<Category> CategoryRepository { get; }
         public IGenericRepository<Models.Main.Сharacteristic> СharacteristicRepository { get; }
         public IGenericRepository<TextCharacteristicValue> TextСharacteristicRepository { get; }
-        public IGenericRepository<FloatCharacteristicValue> FloatСharacteristicRepository { get; }
+        public IGenericRepository<NumericCharacteristicValue> FloatСharacteristicRepository { get; }
         public void Save();
     }
 }
