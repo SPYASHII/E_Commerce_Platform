@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Interfaces.Services
 {
+    /// <summary>
+    /// Generic repository for Unit Of Work Pattern
+    /// </summary>
+    /// <typeparam name="TEntity">Any Core Model</typeparam>
     public interface IGenericRepository<TEntity> where TEntity : class
     {
         public IEnumerable<TEntity> Get(

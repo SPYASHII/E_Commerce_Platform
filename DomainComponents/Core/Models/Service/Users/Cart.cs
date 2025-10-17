@@ -9,8 +9,11 @@ using DomainComponents.Core.Models.Main;
 namespace DomainComponents.Core.Models.ServiceModels.Users
 {
     /// <summary>
-    /// Save in database ONLY IF AUTHORIZED
+    ///  A Cart model that connects User with products that he want to buy
     /// </summary>
+    /// <remarks>
+    /// Save in database ONLY IF AUTHORIZED
+    /// </remarks>
     public class Cart
     {
         public int UserId { get; set; }

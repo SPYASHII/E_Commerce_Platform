@@ -14,6 +14,9 @@ using System.Threading.Tasks;
 
 namespace Database_Infrastructure.Core
 {
+    /// <summary>
+    /// App database Context
+    /// </summary>
     public class CommercePlatformContext : DbContext
     {
         public DbSet<User> Users { get; set; }

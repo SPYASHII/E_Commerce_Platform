@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Models.Main
 {
+    /// <summary>
+    /// Product model
+    /// </summary>
     public class Product
     {
         public int Id { get; set; }

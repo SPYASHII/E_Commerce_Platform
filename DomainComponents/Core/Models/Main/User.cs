@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Models.Main
 {
+    /// <summary>
+    /// User model
+    /// </summary>
     public class User
     {
         public int Id { get; set; }

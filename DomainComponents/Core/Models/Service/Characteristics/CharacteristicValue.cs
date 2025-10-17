@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Models.Service.Characteristics
 {
+    /// <summary>
+    /// Abstract class for concrete value types of characteristics
+    /// </summary>
+    /// <typeparam name="TValue"></typeparam>
     public abstract class CharacteristicValue<TValue>
     {
         public int CharacteristicId { get; set; }

@@ -8,6 +8,9 @@ using DomainComponents.Core.Models.Service.Characteristics;
 
 namespace DomainComponents.Core.Models.ServiceModels.Characteristics
 {
+    /// <summary>
+    /// Numeric type of Characteristic (size, frequency, etc.)
+    /// </summary>
     public class NumericCharacteristicValue : CharacteristicValue<float>
     {
         public float Value { get; set; }

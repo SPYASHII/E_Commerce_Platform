@@ -11,6 +11,10 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Interfaces.Services
 {
+    /// <summary>
+    /// Unit Of Work Pattern for Database.
+    /// Use to connect implementation of database connection with Main Services.
+    /// </summary>
     public interface IUnitOfWork : IDisposable
     {
         public IGenericRepository<User> UserRepository { get; }

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Models.Main
 {
+    /// <summary>
+    /// Category model
+    /// </summary>
     public class Category
     {
         public int Id { get; set; }

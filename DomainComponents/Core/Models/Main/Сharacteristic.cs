@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace DomainComponents.Core.Models.Main
 {
+    /// <summary>
+    /// Characteristic model that have enum for developer to know
+    /// which concrete value that characteristic can have.
+    /// </summary>
     public class Сharacteristic
     {
         public int Id { get; set; }
