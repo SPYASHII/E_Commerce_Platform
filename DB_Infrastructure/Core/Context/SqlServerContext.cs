@@ -17,6 +17,9 @@ namespace Database_Infrastructure.Core.Context
     /// </summary>
     public class SqlServerContext : CommercePlatformContext
     {
+        //TODO: Rework logic of switching between different DBs (SQL Server, SQLite)
+        //only ONE context must be in project,
+        //if I want to switch DB I need to change (replace) the OnConfiguring method
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //HACK: Only for first tests

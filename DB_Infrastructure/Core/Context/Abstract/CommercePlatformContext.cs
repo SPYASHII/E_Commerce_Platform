@@ -17,6 +17,7 @@ namespace Database_Infrastructure.Core.Context.Abstract
     /// <summary>
     /// App database Context
     /// </summary>
+    //TODO: this class must not be abstract
     public abstract class CommercePlatformContext : DbContext
     {
         public DbSet<User> Users { get; set; }
@@ -27,5 +28,7 @@ namespace Database_Infrastructure.Core.Context.Abstract
         public DbSet<Сharacteristic> Сharacteristics { get; set; }
         public DbSet<NumericCharacteristicValue> NumericCharacteristicValues { get; set; }
         public DbSet<TextCharacteristicValue> TextCharacteristicValues { get; set; }
+
+        //TODO: Add Constructor which accepts IConfiguration
     }
 }
