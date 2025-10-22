@@ -22,8 +22,8 @@ namespace DomainComponents.Core.Interfaces.Services
         public IGenericRepository<Product> ProductRepository { get; }
         public IGenericRepository<Category> CategoryRepository { get; }
         public IGenericRepository<Models.Main.Сharacteristic> СharacteristicRepository { get; }
-        public IGenericRepository<TextCharacteristicValue> TextСharacteristicRepository { get; }
-        public IGenericRepository<NumericCharacteristicValue> FloatСharacteristicRepository { get; }
+        public IGenericRepository<TextCharacteristicValue> TextСharacteristicValueRepository { get; }
+        public IGenericRepository<NumericCharacteristicValue> NumericCharacteristicValueRepository { get; }
         public void Save();
     }
 }
